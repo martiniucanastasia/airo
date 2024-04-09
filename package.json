@@ -1,0 +1,48 @@
+{
+  "name": "airo",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview",
+    "test": "vitest --coverage --ui"
+  },
+  "dependencies": {
+    "@types/leaflet": "^1.9.0",
+    "diacritic": "^0.0.2",
+    "firebase": "^9.16.0",
+    "leaflet": "^1.9.3",
+    "normalize.css": "^8.0.1",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-hook-form": "^7.43.0",
+    "react-leaflet": "^4.2.0",
+    "react-select": "^5.7.0",
+    "styled-components": "^5.3.6",
+    "styled-normalize": "^8.0.7",
+    "vite-plugin-svgr": "^2.4.0"
+  },
+  "devDependencies": {
+    "@testing-library/jest-dom": "^5.16.5",
+    "@testing-library/react": "^13.4.0",
+    "@types/node": "^18.11.18",
+    "@types/react": "^18.0.26",
+    "@types/react-dom": "^18.0.9",
+    "@types/styled-components": "^5.1.26",
+    "@typescript-eslint/eslint-plugin": "^5.48.1",
+    "@typescript-eslint/parser": "^5.48.1",
+    "@vitejs/plugin-react": "^3.0.0",
+    "@vitest/coverage-c8": "^0.27.2",
+    "@vitest/ui": "^0.27.2",
+    "babel-plugin-styled-components": "^2.0.7",
+    "eslint": "^8.32.0",
+    "eslint-plugin-react": "^7.32.0",
+    "jsdom": "^21.0.0",
+    "prettier": "2.8.3",
+    "typescript": "^4.9.3",
+    "vite": "^4.0.0",
+    "vitest": "^0.27.2"
+  }
+}

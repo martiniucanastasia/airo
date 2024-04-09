@@ -1,0 +1,3 @@
+const WEATHERBIT_API_KEY = import.meta.env.VITE_WEATHERBIT_API_KEY;
+
+export { WEATHERBIT_API_KEY };
